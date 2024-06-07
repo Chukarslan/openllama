@@ -128,7 +128,7 @@
 					<div class=" self-center">{$i18n.t('Query Params')}</div>
 				</button>
 
-				<button
+				<!-- <button
 					class="px-2.5 py-2.5 min-w-fit rounded-lg flex-1 md:flex-none flex text-right transition {selectedTab ===
 					'web'
 						? 'bg-gray-200 dark:bg-gray-700'
@@ -150,7 +150,7 @@
 						</svg>
 					</div>
 					<div class=" self-center">{$i18n.t('Web Params')}</div>
-				</button>
+				</button> -->
 			</div>
 			<div class="flex-1 md:min-h-[380px]">
 				{#if selectedTab === 'general'}

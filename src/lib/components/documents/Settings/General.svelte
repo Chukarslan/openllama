@@ -201,7 +201,7 @@
 
 			<div class="  flex w-full justify-between">
 				<div class=" self-center text-xs font-medium">
-					{$i18n.t('Scan for documents from {{path}}', { path: 'DOCS_DIR (/data/docs)' })}
+					{$i18n.t('Scan for documents from S3 path {{path}}', { path: 'DOCS_DIR (s3://modelops/example/data/docs)' })}
 				</div>
 
 				<button
@@ -247,7 +247,7 @@
 				</button>
 			</div>
 
-			<div class=" flex w-full justify-between">
+			<!-- <div class=" flex w-full justify-between">
 				<div class=" self-center text-xs font-medium">{$i18n.t('Embedding Model Engine')}</div>
 				<div class="flex items-center relative">
 					<select
@@ -269,7 +269,7 @@
 						<option value="openai">{$i18n.t('OpenAI')}</option>
 					</select>
 				</div>
-			</div>
+			</div> -->
 
 			{#if embeddingEngine === 'openai'}
 				<div class="my-0.5 flex gap-2">
@@ -437,8 +437,8 @@
 					<div class="flex w-full">
 						<div class="flex-1 mr-2">
 							<input
-								class="w-full rounded-lg py-2 px-4 text-sm dark:text-gray-300 dark:bg-gray-850 outline-none"
-								placeholder={$i18n.t('Set reranking model (e.g. {{model}})', {
+								class="disabled sw-full rounded-lg py-2 px-4 text-sm dark:text-gray-300 dark:bg-gray-850 outline-none"
+								placeholder={$i18n.t('Disabled - a local sentence-transformer is used instead', {
 									model: 'BAAI/bge-reranker-v2-m3'
 								})}
 								bind:value={rerankingModel}

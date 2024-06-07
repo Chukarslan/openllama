@@ -91,7 +91,7 @@
 				</button>
 
 				{#if $user?.role === 'admin'}
-					<button
+					<!-- <button
 						class="px-2.5 py-2.5 min-w-fit rounded-lg flex-1 md:flex-none flex text-right transition {selectedTab ===
 						'connections'
 							? 'bg-gray-200 dark:bg-gray-700'
@@ -113,7 +113,7 @@
 							</svg>
 						</div>
 						<div class=" self-center">{$i18n.t('Connections')}</div>
-					</button>
+					</button> -->
 
 					<button
 						class="px-2.5 py-2.5 min-w-fit rounded-lg flex-1 md:flex-none flex text-right transition {selectedTab ===
@@ -210,7 +210,7 @@
 					<div class=" self-center">{$i18n.t('Audio')}</div>
 				</button>
 
-				{#if $user.role === 'admin'}
+				<!-- {#if $user.role === 'admin'}
 					<button
 						class="px-2.5 py-2.5 min-w-fit rounded-lg flex-1 md:flex-none flex text-right transition {selectedTab ===
 						'images'
@@ -236,7 +236,7 @@
 						</div>
 						<div class=" self-center">{$i18n.t('Images')}</div>
 					</button>
-				{/if}
+				{/if} -->
 
 				<button
 					class="px-2.5 py-2.5 min-w-fit rounded-lg flex-1 md:flex-none flex text-right transition {selectedTab ===
@@ -290,7 +290,7 @@
 					<div class=" self-center">{$i18n.t('Account')}</div>
 				</button>
 
-				<button
+				<!-- <button
 					class="px-2.5 py-2.5 min-w-fit rounded-lg flex-1 md:flex-none flex text-right transition {selectedTab ===
 					'about'
 						? 'bg-gray-200 dark:bg-gray-700'
@@ -314,7 +314,7 @@
 						</svg>
 					</div>
 					<div class=" self-center">{$i18n.t('About')}</div>
-				</button>
+				</button> -->
 			</div>
 			<div class="flex-1 md:min-h-[28rem]">
 				{#if selectedTab === 'general'}

@@ -551,9 +551,9 @@
 		{#if ollamaEnabled}
 			{#if ollamaVersion !== null}
 				<div class="space-y-2 pr-1.5">
-					<div class="text-sm font-medium">{$i18n.t('Manage Ollama Models')}</div>
+					<!-- <div class="text-sm font-medium">{$i18n.t('Manage Ollama Models')}</div> -->
 
-					{#if OLLAMA_URLS.length > 0}
+					<!-- {#if OLLAMA_URLS.length > 0}
 						<div class="flex gap-2">
 							<div class="flex-1 pb-1">
 								<select
@@ -598,10 +598,10 @@
 						{#if updateModelId}
 							Updating "{updateModelId}" {updateProgress ? `(${updateProgress}%)` : ''}
 						{/if}
-					{/if}
+					{/if} -->
 
 					<div class="space-y-2">
-						<div>
+						<!-- <div>
 							<div class=" mb-2 text-sm font-medium">{$i18n.t('Pull a model from Ollama.com')}</div>
 							<div class="flex w-full">
 								<div class="flex-1 mr-2">
@@ -733,9 +733,9 @@
 									{/if}
 								{/each}
 							{/if}
-						</div>
+						</div> -->
 
-						<div>
+						<!-- <div>
 							<div class=" mb-2 text-sm font-medium">{$i18n.t('Delete a model')}</div>
 							<div class="flex w-full">
 								<div class="flex-1 mr-2">
@@ -777,7 +777,7 @@
 									</svg>
 								</button>
 							</div>
-						</div>
+						</div> -->
 
 						<div>
 							<div class=" mb-2 text-sm font-medium">{$i18n.t('Create a model')}</div>
@@ -850,7 +850,7 @@
 							{/if}
 						</div>
 
-						<div class="pt-1">
+						<!-- <div class="pt-1">
 							<div class="flex justify-between items-center text-xs">
 								<div class=" text-sm font-medium">{$i18n.t('Experimental')}</div>
 								<button
@@ -861,9 +861,9 @@
 									}}>{showExperimentalOllama ? $i18n.t('Hide') : $i18n.t('Show')}</button
 								>
 							</div>
-						</div>
+						</div> -->
 
-						{#if showExperimentalOllama}
+						<!-- {#if showExperimentalOllama}
 							<form
 								on:submit|preventDefault={() => {
 									uploadModelHandler();
@@ -1050,7 +1050,7 @@
 									</div>
 								{/if}
 							</form>
-						{/if}
+						{/if} -->
 					</div>
 				</div>
 			{:else if ollamaVersion === false}

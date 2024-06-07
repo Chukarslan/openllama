@@ -230,9 +230,9 @@
 			</div>
 		</div>
 
-		<div class="py-0.5">
+		<!-- <div class="py-0.5">
 			<UpdatePassword />
-		</div>
+		</div> -->
 
 		<hr class=" dark:border-gray-700 my-4" />
 
@@ -348,7 +348,7 @@
 						</button>
 					</div>
 				</div>
-				<div class="justify-between w-full">
+				<!-- <div class="justify-between w-full">
 					<div class="flex justify-between w-full">
 						<div class="self-center text-xs font-medium">{$i18n.t('API Key')}</div>
 					</div>
@@ -483,7 +483,7 @@
 							>
 						{/if}
 					</div>
-				</div>
+				</div> -->
 			</div>
 		{/if}
 	</div>
