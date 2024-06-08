@@ -236,7 +236,7 @@
 
 		<hr class=" dark:border-gray-700 my-4" />
 
-		<div class="flex justify-between items-center text-sm">
+		<!-- <div class="flex justify-between items-center text-sm">
 			<div class="  font-medium">{$i18n.t('API keys')}</div>
 			<button
 				class=" text-xs font-medium text-gray-500"
@@ -245,7 +245,7 @@
 					showAPIKeys = !showAPIKeys;
 				}}>{showAPIKeys ? $i18n.t('Hide') : $i18n.t('Show')}</button
 			>
-		</div>
+		</div> -->
 
 		{#if showAPIKeys}
 			<div class="flex flex-col gap-4">
