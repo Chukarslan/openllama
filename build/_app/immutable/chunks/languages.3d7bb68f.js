@@ -1,0 +1,2 @@
+const e=[{code:"en-GB",title:"English (GB)"},{code:"ar-BH",title:"Arabic (عربي)"},{code:"ca-ES",title:"Catalan (català)"},{code:"de-DE",title:"German (Deutsch)"},{code:"es-ES",title:"Spanish (Español)"},{code:"fr-CA",title:"French (Canada)"},{code:"fr-FR",title:"French (France)"},{code:"pt-PT",title:"Portuguese (Portugal)"},{code:"tr-TR",title:"Turkish (Türkçe)"},{code:"zh-CN",title:"Chinese (简体中文)"}];export{e as default};
+//# sourceMappingURL=languages.3d7bb68f.js.map
