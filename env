@@ -1,0 +1,28 @@
+# Ollama URL for the backend to connect
+# The path '/ollama' will be redirected to the specified backend URL
+OLLAMA_BASE_URL='http://localhost:11434'
+
+OPENAI_API_BASE_URL=''
+OPENAI_API_KEY=''
+
+# AUTOMATIC1111_BASE_URL="http://localhost:7860"
+
+# DO NOT TRACK
+WEBUI_NAME=AirbusGPT
+SCARF_NO_ANALYTICS=true
+DO_NOT_TRACK=true
+ANONYMIZED_TELEMETRY=false
+WEBUI_AUTH=false
+ENABLE_RAG_WEB_LOADER_SSL_VERIFICATION=false
+DATABASE_URL=postgresql://userdata:12345@127.0.0.1:5432/userdata
+CHROMA_HTTP_HOST=localhost
+CHROMA_HTTP_PORT=8000
+
+
+# RAG params
+RAG_RELEVANCE_THRESHOLD=0.0
+ENABLE_RAG_HYBRID_SEARCH=true
+RAG_EMBEDDING_ENGINE=ollama
+
+# OCR
+PDF_EXTRACT_IMAGES=True
